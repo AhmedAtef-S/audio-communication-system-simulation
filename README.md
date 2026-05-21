@@ -25,11 +25,11 @@ Simulates signal distortion across 4 optional channel profiles using Linear Time
 *   **Decaying Exponentials:** Fast decay ($\exp(-2\pi \cdot 5000t)$) and slow decay ($\exp(-2\pi \cdot 1000t)$) representing multipath dispersion.
 *   **Custom Impulse Response:** Simulates a direct path plus a delayed echo (multipath effect).
 
+<img src="images/img2.png" width="600">
+
 ### 3. Noise Channel
 *   Generates **Additive White Gaussian Noise (AWGN)** based on user-defined standard deviation ($\sigma$).
 *   Visualizes how noise masks high-frequency components in both domains.
-
-<img src="images/img2.png" width="600">
 
 ### 4. Receiver (RX)
 *   Implements an **Ideal Low-Pass Filter (LPF)** with a critical cutoff frequency of $f_c = 3400\text{ Hz}$ (Standard voice bandwidth).
